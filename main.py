@@ -5,6 +5,11 @@ from ex_10 import ex_numpy_ten
 from ex_11 import ex_numpy_eleven
 from ex_12 import ex_numpy_twelve
 from ex_13 import ex_numpy_thirteen
+from ex_14 import ex_numpy_fourteen
+from ex_15 import ex_numpy_fifteen
+from ex_16 import ex_numpy_sixteen
+from ex_17 import ex_numpy_seventeen
+from ex_18 import ex_numpy_eightteen
 from ex_2 import ex_numpy_second
 from ex_3 import ex_numpy_third
 from ex_4 import ex_numpy_forth
@@ -82,3 +87,25 @@ if __name__ == '__main__':
 
     print(ex_numpy_thirteen(a, b))
 
+    # ex 14
+    x = np.array([0, 1, 2, 3])
+    y = np.array([[0, 1, 2, 3], [4, 5, 6, 7]])
+    ex_numpy_fourteen(x, y)
+
+    # ex 15
+
+    ex_numpy_fifteen()
+
+    # ex 16
+
+    ex_numpy_sixteen()
+
+    # ex 17
+
+    m = np.random.randint(100, 16).reshape(4, 4)
+
+    ex_numpy_seventeen(m)
+
+    # ex 18
+
+    ex_numpy_eightteen()
