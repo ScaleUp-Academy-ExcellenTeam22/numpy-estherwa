@@ -3,7 +3,7 @@ import numpy as np
 
 def ex_numpy_seventeen(m):
     """
-     A NumPy program to create a three-dimension array with a specific shape .
+     A NumPy program that calculates the median.
     """
     print(np.median(m))
 
