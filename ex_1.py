@@ -1,4 +1,4 @@
-import numpy as np
+
 
 
 def ex_numpy(x):
