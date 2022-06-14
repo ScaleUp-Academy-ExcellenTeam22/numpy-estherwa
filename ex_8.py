@@ -1,13 +1,13 @@
 import numpy as np
 
 
-def ex_numpy_eight(nums, n, r):
+def ex_numpy_eight(nums, n, replace):
     """
     Function to program to multiply two given arrays of same size element-by-element.
     """
-    if r == "<":
-        print(np.where(nums < n, r, nums))
-    elif r == "=":
-        print(np.where(nums == n, r, nums))
-    elif r == ">":
-        print(np.where(nums > n, r, nums))
+    if replace == "<":
+        print(np.where(nums < n, replace, nums))
+    elif replace == "=":
+        print(np.where(nums == n, replace, nums))
+    elif replace == ">":
+        print(np.where(nums > n, replace, nums))
