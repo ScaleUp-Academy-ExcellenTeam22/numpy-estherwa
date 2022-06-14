@@ -3,7 +3,7 @@ import numpy as np
 
 def ex_numpy_eightteen():
     """
-    A NumPy program to count the number of days of specific month.
+    A NumPy program that counts count the number of days of specific month.
     """
 
     print("Number of days, February, 2016: ", np.datetime64('2016-03-01') - np.datetime64('2016-02-01'))
