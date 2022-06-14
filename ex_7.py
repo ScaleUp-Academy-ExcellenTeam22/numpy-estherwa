@@ -11,3 +11,6 @@ def ex_numpy_seven():
 
     new_nums = nums[::-1]
     print(new_nums)
+    
+    
+  
