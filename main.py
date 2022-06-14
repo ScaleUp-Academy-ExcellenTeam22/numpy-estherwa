@@ -40,8 +40,8 @@ if __name__ == '__main__':
     ex_numpy_fifth(m, v)
 
     # ex6
-
-    x = np.arange(0, 7 * np.pi, 0.01)
+    
+    x = np.arange(0, 3 * np.pi, 0.02)
     y = np.sin(x)
 
     ex_numpy_six(x, y)
