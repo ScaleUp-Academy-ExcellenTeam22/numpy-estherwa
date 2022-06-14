@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def ex_numpy_six(x, y):
     """
-    A function that computes the x and y coordinates for points on a sine curve.
+    A function that displays the graph of the points.
     """
     plt.plot(x, y)
     plt.show()
